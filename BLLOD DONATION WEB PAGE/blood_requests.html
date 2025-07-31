@@ -1,0 +1,62 @@
+
+    <!DOCTYPE html>
+        <html lang="en">
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Blood Request</title>
+            <link rel="stylesheet" href="blood_request.css">
+        <body>
+    
+            <div class="container">
+                <h2>Blood Request Form</h2>
+                <form action="#" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+        
+                    <label for="blood_group">Blood Group:</label>
+                    <select id="blood_group" name="blood_group" required>
+                        <option value="">Select Blood Group</option>
+                        <option value="A+">A+</option>
+                        <option value="A-">A-</option>
+                        <option value="B+">B+</option>
+                        <option value="B-">B-</option>
+                        <option value="AB+">AB+</option>
+                        <option value="AB-">AB-</option>
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+                    </select>
+        
+                    <label for="units">Number of Units Needed:</label>
+                    <input type="text" id="units" name="units" required>
+        
+                    <label for="hospital">Hospital Name:</label>
+                    <input type="text" id="hospital" name="hospital" required>
+        
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" required>
+        
+                    <label for="phone">Contact Number:</label>
+                    <input type="text" id="phone" name="phone" required>
+        
+                    <label for="additional_info">Additional Information:</label>
+                    <textarea id="additional_info" name="additional_info"></textarea>
+        
+                    <input type="submit" value="Submit">
+                    <input type="button" value="Back" onclick="goBack()">
+    <script>
+        function goBack() {
+          alert("Exiting form...");
+        }
+          function goBack() {
+      window.history.back();
+        }
+      </script>
+                </form>
+            </div>
+        </body>
+        </html>
+      </p>
+</section>
+<footer>
+    <p>&copy;E-BLOODBANK  </p>
+</footer>
